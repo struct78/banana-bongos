@@ -8,6 +8,11 @@ The Arduino sketch is set up for 6 notes, or pieces of fruit, which use 12 pins 
 ## Processing
 The Processing sketch is the middleware between the Arduino and Ableton Live. It receives Serial messages in JSON format which tell you what piece of fruit was touched, and the velocity with which it's touched. In this case, 'velocity' is determined by the amount of contact on the piece of fruit - the more the voltage drops, the higher the velocity.
 
+## Circuit Diagram
+Download [Fritzing](http://fritzing.org/) to explore the included diagram.
+
+![Fritzing](https://github.com/struct78/banana-bongos/raw/develop/images/fritzing.png)
+
 ## Laser cut design
 Coming soon
 

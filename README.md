@@ -16,6 +16,9 @@ Download [Fritzing](http://fritzing.org/) to explore the circuit diagram.
 ## Laser cut design
 Laser Cut design was done in accordance with requirements from ![The Make Lab](http://themakelab.com), base template built with ![Maker Case](http://makercase.com). Please consult your local provider for specifications as they may differ.
 
+![Adobe Illustrator Format]https://github.com/struct78/banana-bongos/raw/develop/laser-cut/box.ai)
+![SVG Format]https://github.com/struct78/banana-bongos/raw/develop/laser-cut/box.svg)
+
 ![Laser Cut](https://github.com/struct78/banana-bongos/raw/develop/images/box.png)
 
 ## CAD drawings

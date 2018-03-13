@@ -27,10 +27,10 @@ String virtualPorts[] = new String[] {
 // Pitches for each virtual port/instrument
 int notes[][] = new int[][] {
   { 60, 62, 64, 66, 68, 70 },
-  { 60, 61, 62, 63, 64, 65 },
+  { 60, 62, 64, 65, 67, 69 },
   { 60, 62, 64, 66, 68, 70 },
   { 60, 62, 64, 66, 68, 70 },
-  { 60, 62, 64, 66, 68, 70 },
+  { 50, 52, 54, 56, 58, 60 },
   { 36, 37, 38, 39, 40, 41 }
 };
 
@@ -51,9 +51,7 @@ int activeVirtualPort = 0;
 
 // Linefeed
 int lf = 10;
-
 int velocity = 0;
-
 String noteType;
 String buffer;
 
@@ -88,7 +86,6 @@ void drawSerial() {
     if (buffer != null) {
       json = parseJSONObject(buffer);
       
-      println(buffer);
       if (json != null) {
         for ( int x = 0 ; x < codes.length ; x++ ) {
           noteType = json.getString("noteType");

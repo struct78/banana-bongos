@@ -47,7 +47,7 @@ Laser Cut design was done in accordance with requirements from [The Make Lab](ht
 ![Laser Cut](https://github.com/struct78/banana-bongos/raw/develop/images/box.png)
 
 ## CAD drawings
-Coming soon
+The STL file provides you with a 3D model of the enclosure, and the Arduino Mega within.
 
 + [Download STL File](https://github.com/struct78/banana-bongos/raw/develop/cad/Banana%20Bongos%20Box.stl)
 

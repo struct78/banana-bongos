@@ -49,7 +49,7 @@ Laser Cut design was done in accordance with requirements from [The Make Lab](ht
 ## CAD drawings
 Coming soon
 
-+ [Download STL File](https://github.com/struct78/banana-bongos/raw/develop/cad/Banana Bongos Box.stl)
++ [Download STL File](https://github.com/struct78/banana-bongos/raw/develop/cad/Banana%20Bongos%20Box.stl)
 
 ## Photos
 Coming soon

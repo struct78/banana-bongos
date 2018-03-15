@@ -26,10 +26,10 @@ A twist on an old classic, this low cost, kid-friendly Arduino based project let
 4 x nylon female-female standoffs | [AU$2.78](https://www.littlebirdelectronics.com.au/10-sets-m3-20-nylon-standoffs) for set of 10 or [AU$43.60](https://www.littlebirdelectronics.com.au/mounting-kit-standoffs) for DFRobot Mounting Kit |
 1 x tube of Acrifix (if using acrylix box, otherwise any wood glue is fine) | [AU$30](https://www.pacwestcorp.com.au/acrifix-uv-glue/) |
 
-## Arduino
+## Arduino Sketch
 The Arduino sketch is set up for 6 notes, or pieces of fruit, which use 12 pins on an Arduino. In this case, I have used an Arduino Mega, but it should work on most Arduino boards.
 
-## Processing
+## Processing Sketch
 The Processing sketch is the middleware between the Arduino and Ableton Live. It receives Serial messages in JSON format which tell you what piece of fruit was touched, and the velocity with which it's touched. In this case, 'velocity' is determined by the amount of contact on the piece of fruit - the more the voltage drops, the higher the velocity.
 
 ## Circuit Diagram
@@ -48,6 +48,8 @@ Laser Cut design was done in accordance with requirements from [The Make Lab](ht
 
 ## CAD drawings
 Coming soon
+
++ [Download STL File](https://github.com/struct78/banana-bongos/raw/develop/cad/Banana Bongos Box.stl)
 
 ## Photos
 Coming soon

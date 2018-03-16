@@ -13,7 +13,7 @@ A twist on an old classic, this low cost, kid-friendly Arduino based project let
 10 x Alligator to Jumper Male 20cm | [AU$7.50](https://www.littlebirdelectronics.com.au/alligator-to-jumper-male-20cm-10-pin) |
 12 x male/male jumper cables | [AU$2.85](https://www.littlebirdelectronics.com.au/premium-male-male-jumper-wires-20-x-6-150mm) |
 6 x 1MΩ resistors | [AU$12.29](https://www.littlebirdelectronics.com.au/resistor-kit-1-4w-500-total) |
-1 x USB A/B cable | - |
+1 x USB A/B cable (comes with Arduino) | - |
 
 #### Non-electrical components
 

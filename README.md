@@ -52,4 +52,7 @@ The STL file provides you with a 3D model of the enclosure, and the Arduino Mega
 + [Download STL File](https://github.com/struct78/banana-bongos/raw/develop/cad/Banana%20Bongos%20Box.stl)
 
 ## Photos
-Coming soon
+
+![Open](https://github.com/struct78/banana-bongos/raw/develop/images/box-open.jpg)
+
+![Complete](https://github.com/struct78/banana-bongos/raw/develop/images/box-complete.jpg)

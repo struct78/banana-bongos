@@ -7,7 +7,7 @@ A twist on an old classic, this low cost, kid-friendly Arduino based project let
 
 |Item|Price/Source|
 |--|--|
-| 1 x DFRobot/Arduino Mega | [AU$53.21](https://www.littlebirdelectronics.com.au/dfrobot-mega-2560-v3.0-arduino-mega-2560-r3-compat) |
+| 1 x DFRobot/Arduino Mega (you could use almost any Arduino-compatible microcontroller)| [AU$53.21](https://www.littlebirdelectronics.com.au/dfrobot-mega-2560-v3.0-arduino-mega-2560-r3-compat) |
 | 1 x breadboard (half or full sized) | [AU$8.70](https://www.littlebirdelectronics.com.au/full-sized-breadboard) |
 | 10 x Alligator Test Leads (Large) | [AU$4.32](https://www.littlebirdelectronics.com.au/alligator-test-leads-multicolored-10-pack) |
 10 x Alligator to Jumper Male 20cm | [AU$7.50](https://www.littlebirdelectronics.com.au/alligator-to-jumper-male-20cm-10-pin) |

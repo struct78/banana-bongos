@@ -93,14 +93,15 @@ The STL file provides you with a 3D model of the enclosure, and the Arduino Mega
 
 #### Box
 
-1) Using a small plastic spatula or similar, place Acrifix along the inner portions of the finger joints
+1) Apply Acrifix along the inner sides of the finger joints using a small plastic applicator
 2) Starting with the bottom side (long piece without the holes), insert the sides, followed by the two end pieces - don't glue the top piece!
 3) Be very careful with the end piece with the hole for the USB slot - refer to the CAD diagram
-4) Leave to dry under UV light or in the sun for an hour or two - it will cure completely in 24 hours.
-5) Once dry, screw the standoffs to the Arduino
-6) Apply some of the Loctite activator on to the bottom of the standoffs
-7) Place the Arduino inside the box, so that the USB port lines up with the hole on the end.
-8) Remove the Arduino and take note of where the activator marks are on the bottom piece - apply more activator to these spots
-9) Wait 60 seconds and apply the Loctite superglue to the 4 areas where you applied activator
-10) Glue the Arduino, double checking that the USB port is aligned properly
-11) Leave to dry for 1-2 hours
+4) Once all 5 sides are assembled correctly, run a small amount of Acrifix (just use the tub) along the 4 sides inside the box
+5) Leave to dry under UV light or in the sun for an hour or two - it will cure completely in 24 hours.
+6) Once dry, screw the standoffs to the Arduino
+7) Apply some of the Loctite activator on to the bottom of the standoffs
+8) Place the Arduino inside the box, so that the USB port lines up with the hole on the end.
+9) Remove the Arduino and take note of where the activator marks are on the bottom piece - apply more activator to these spots
+10) Wait 60 seconds and apply the Loctite superglue to the 4 areas where you applied activator
+11) Glue the Arduino, double checking that the USB port is aligned properly
+12) Leave to dry for 1-2 hours

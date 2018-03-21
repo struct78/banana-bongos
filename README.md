@@ -100,7 +100,7 @@ The STL file provides you with a 3D model of the enclosure, and the Arduino Mega
 5) Once dry, screw the standoffs to the Arduino
 6) Apply some of the Loctite activator on to the bottom of the standoffs
 7) Place the Arduino inside the box, so that the USB port lines up with the hole on the end.
-8) Remove the Arduino and take note of where the activator marks - apply more activator to these spots
+8) Remove the Arduino and take note of where the activator marks are on the bottom piece - apply more activator to these spots
 9) Wait 60 seconds and apply the Loctite superglue to the 4 areas where you applied activator
 10) Glue the Arduino, double checking that the USB port is aligned properly
 11) Leave to dry for 1-2 hours

@@ -25,6 +25,7 @@ A twist on an old classic, this low cost, kid-friendly Arduino based project let
 1 x laser cut box (acrylic or plywood) | [AU$35-50](http://themakelab.com)|
 4 x nylon female-female standoffs | [AU$2.78](https://www.littlebirdelectronics.com.au/10-sets-m3-20-nylon-standoffs) for set of 10 or [AU$43.60](https://www.littlebirdelectronics.com.au/mounting-kit-standoffs) for DFRobot Mounting Kit |
 1 x tube of Acrifix (if using acrylix box, otherwise any wood glue is fine) | [AU$30](https://www.pacwestcorp.com.au/acrifix-uv-glue/) |
+1 x tube of Loctite All Plastic Superglue | [AU$9](https://www.bunnings.com.au/loctite-2g-and-4ml-2-part-all-plastic-superglue_p1210073) |
 
 ## Arduino Sketch
 The Arduino sketch is set up for 6 notes, or pieces of fruit, which use 12 pins on an Arduino. In this case, I have used an Arduino Mega, but it should work on most Arduino boards.
@@ -87,3 +88,19 @@ The STL file provides you with a 3D model of the enclosure, and the Arduino Mega
 ![Open](https://github.com/struct78/banana-bongos/raw/develop/images/box-open.jpg)
 
 ![Complete](https://github.com/struct78/banana-bongos/raw/develop/images/box-complete.jpg)
+
+## Assembly instructions
+
+#### Box
+
+1) Using a small plastic spatula or similar, place Acrifix along the inner portions of the finger joints
+2) Starting with the bottom side (long piece without the holes), insert the sides, followed by the two end pieces - don't glue the top piece!
+3) Be very careful with the end piece with the hole for the USB slot - refer to the CAD diagram
+4) Leave to dry under UV light or in the sun for an hour or two - it will cure completely in 24 hours.
+5) Once dry, screw the standoffs to the Arduino
+6) Apply some of the Loctite activator on to the bottom of the standoffs
+7) Place the Arduino inside the box, so that the USB port lines up with the hole on the end.
+8) Remove the Arduino and take note of where the activator marks - apply more activator to these spots
+9) Wait 60 seconds and apply the Loctite superglue to the 4 areas where you applied activator
+10) Glue the Arduino, double checking that the USB port is aligned properly
+11) Leave to dry for 1-2 hours

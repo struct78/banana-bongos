@@ -32,6 +32,37 @@ The Arduino sketch is set up for 6 notes, or pieces of fruit, which use 12 pins 
 ## Processing Sketch
 The Processing sketch is the middleware between the Arduino and Ableton Live. It receives Serial messages in JSON format which tell you what piece of fruit was touched, and the velocity with which it's touched. In this case, 'velocity' is determined by the amount of contact on the piece of fruit - the more the voltage drops, the higher the velocity.
 
+## Ableton project
+To use the Ableton set provided, you will need Ableton Live 9 Suite with the following packs.
+
++ [Grand Piano](https://www.ableton.com/en/packs/grand-piano/)
++ [Orchestral Brass](https://www.ableton.com/en/packs/orchestral-brass/)
++ [Orchestral Strings](https://www.ableton.com/en/packs/orchestral-strings/)
++ [Orchestral Mallets](https://www.ableton.com/en/packs/orchestral-mallets/)
++ [Session Drums Studio](https://www.ableton.com/en/packs/session-drums-studio/)
++ [The Forge](https://www.ableton.com/en/packs/forge/)
+
+Or create your own!
+
+## MIDI Setup
+This project relies on a number of Virtual MIDI ports being setup to communicate with Ableton Live.
+
+* Banana Bongos
+* Banana Piano
+* Banana Trumpet
+* Banana Violin
+* Banana Trombone
+* Banana Drum Kit
+* Banana Xylophone
+* Banana Synth
+
+![Virtual MIDI ports](https://github.com/struct78/banana-bongos/raw/develop/images/virtual-ports.png)
+
+## Icons
+Icons provided by Smashing Magazine.
+
++ [Download the full set](https://www.smashingmagazine.com/2016/05/freebie-music-instrument-icons-39-icons-png-svg/)
+
 ## Circuit Diagram
 Download [Fritzing](http://fritzing.org/) to explore the circuit diagram.
 

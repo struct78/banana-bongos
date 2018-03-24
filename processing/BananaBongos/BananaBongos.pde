@@ -3,7 +3,7 @@ import themidibus.*;
 import java.util.Collections;
 
 // Port name for the Arduino
-String port = "/dev/tty.usbmodem1421";
+String port = "/dev/tty.usbmodem1411";
 
 // Note codes come in as a1 for note on, a0 for note off
 String codes[] = new String[] { 
@@ -59,11 +59,11 @@ String buffer;
 Instrument instrument;
 
 void setup() {
+  frameRate(24);
+  fullScreen();
+  
   setupInstruments();
   setupSerial();
-  setupUI();
-
-  fullScreen();
 }
 
 void setupSerial() {
@@ -78,6 +78,7 @@ void setupSerial() {
     serial.readStringUntil(lf);
   }
   catch (Exception ex) {
+    println(ex);
     println("Serial communication failed");
   }
 }
@@ -91,11 +92,6 @@ void setupInstruments() {
   instruments.add( new Instrument("Banana Drum Kit", "snare-drum.svg", new int[] { 46, 47, 48, 49, 50, 51 }) );
   instruments.add( new Instrument("Banana Xylophone", "xylophone.svg", new int[] { 60, 62, 64, 66, 68, 70 }) );
   instruments.add( new Instrument("Banana Synth", "synthesizer.svg", new int[] { 60, 62, 64, 66, 68, 70 }) );
-}
-
-void setupUI() {
-  fullScreen();
-  frameRate(24);
 }
 
 void draw() {
@@ -194,7 +190,8 @@ void keyPressed() {
     if (keyCode == RIGHT) {
       activeInstrument = (activeInstrument == instruments.size()-1) ? 0 : activeInstrument+1;
     }
-
+    
+    instrument = instruments.get(activeInstrument);
     midi = new MidiBus( this, -1, instrument.port );
   }
 }
